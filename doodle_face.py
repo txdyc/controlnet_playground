@@ -64,9 +64,11 @@ class ScribbleControlNet:
         return f'Image loaded from {self.image_path}'
 
 
+
 if __name__=='__main__':
+
     # Create header print before running code
-    prompt = "roman legion"
+    prompt = "bear"
     print('-' * 80)
     print(f'Script created by {__author__}\nProject: {__project__}')
     print(f'Based on prompt: {prompt}')
