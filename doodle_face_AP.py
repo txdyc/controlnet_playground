@@ -17,6 +17,7 @@ from PIL import Image
 from diffusers import StableDiffusionControlNetPipeline, ControlNetModel, UniPCMultistepScheduler
 import torch
 from controlnet_aux import HEDdetector
+import argparse
 
 class ScribbleControlNet:
     def __init__(self, image_path, 
@@ -64,11 +65,17 @@ class ScribbleControlNet:
         return f'Image loaded from {self.image_path}'
 
 
+# Set up argparser
+parser = argparse.ArgumentParser('Generate images with prompt')
+parser.add_argument('--prompt', dest='prompt', default=True)
+args = parser.parse_args()
+
+
 
 if __name__=='__main__':
 
     # Create header print before running code
-    prompt = "alien"
+    prompt = args['prompt']
     print('-' * 80)
     print(f'Script created by {__author__}\nProject: {__project__}')
     print(f'Based on prompt: {prompt}')
