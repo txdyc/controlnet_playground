@@ -66,7 +66,7 @@ class ScribbleControlNet:
 
 if __name__=='__main__':
     # Create header print before running code
-    prompt = "hamburger"
+    prompt = "a smart looking businessman"
     print('-' * 80)
     print(f'Script created by {__author__}\nProject: {__project__}')
     print(f'Based on prompt: {prompt}')
