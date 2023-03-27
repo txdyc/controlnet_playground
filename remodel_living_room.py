@@ -1,3 +1,17 @@
+# Futures
+from __future__ import unicode_literals
+from __future__ import print_function
+# Owned
+__author__ = "Gary Hutson"
+__copyright__ = "Copyright 2023, Hutsons-hacks.info"
+__credits__ = ["Gary Hutson"]
+__license__ = "MPL 2.0"
+__version__ = "0.1.0"
+__maintainer__ = "Gary Hutson"
+__email__ = "hutsons-hacks@outlook.com"
+__status__ = "Dev"
+
+# Imports
 from transformers import AutoImageProcessor, UperNetForSemanticSegmentation
 from PIL import Image
 import numpy as np
