@@ -62,7 +62,10 @@ See the supporting post: https://hutsons-hacks.info/creating-doodles-with-hed-de
 
 To use this model, refer to the blog post, or import the class from this repository:
 
-```
+``` python
+# Import custom installs
+from controlnet.scribble_net import ScribbleControlNet
+
 if __name__=='__main__':
     # Class instance
     doodle = ScribbleControlNet(
@@ -77,7 +80,6 @@ if __name__=='__main__':
     image_gen = doodle.generate_scribble(prompt, 
                                            num_inf_steps=50,
                                            save_path=f'images/{prompt.strip().replace(" ", "")}')
-
 ```
 
 
