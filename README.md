@@ -13,6 +13,9 @@ Check out this post for details of what this does: https://hutsons-hacks.info/us
 To use the remodeller, copy the class from the article in Python, and then created a `main.py` file, or encapsulate in main block, as below: 
 
 ```
+# Import our custom classes from this repo
+from controlnet.remodeller import ControlNetMLSD, ControlNetSegment
+
 if __name__=='__main__':
     prompt = 'living room with navy theme'
     img_path = 'images/house.jpeg'
@@ -26,6 +29,16 @@ if __name__=='__main__':
         mlsd_save_path=f'images/house_mlsd_{prompt.strip().replace(" ", "")}.jpeg',
         mlsd_diff_gen_save_path=f'images/house_mlsd_gen_{prompt.strip().replace(" ", "")}.jpeg'
         )
+
+    control_net_seg = ControlNetSegment(
+        prompt=prompt,
+        image_path=img_path)
+    
+    seg_image = control_net_seg.segment_generation(
+        save_segmentation_path=f'images/house_seg_{prompt.strip().replace(" ", "")}.jpeg',
+        save_gen_path=f'images/house_seg_gen_{prompt.strip().replace(" ", "")}.jpeg'
+        )
+    
 
 ```
 
