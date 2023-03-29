@@ -20,6 +20,7 @@ if __name__=='__main__':
     prompt = 'living room with navy theme'
     img_path = 'images/house.jpeg'
 
+    # Run the MLSD edge detector version
     mlsd_net_seg = ControlNetMLSD(
         prompt=prompt, 
         image_path=img_path
@@ -30,6 +31,7 @@ if __name__=='__main__':
         mlsd_diff_gen_save_path=f'images/house_mlsd_gen_{prompt.strip().replace(" ", "")}.jpeg'
         )
 
+    # Run the semantic segmentation model
     control_net_seg = ControlNetSegment(
         prompt=prompt,
         image_path=img_path)
@@ -38,8 +40,6 @@ if __name__=='__main__':
         save_segmentation_path=f'images/house_seg_{prompt.strip().replace(" ", "")}.jpeg',
         save_gen_path=f'images/house_seg_gen_{prompt.strip().replace(" ", "")}.jpeg'
         )
-    
-
 ```
 
 ## Doodle Face
