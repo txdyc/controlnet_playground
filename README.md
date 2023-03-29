@@ -39,8 +39,23 @@ See the supporting post: https://hutsons-hacks.info/creating-doodles-with-hed-de
 
 To use this model, refer to the blog post, or import the class from this repository:
 
+```
+if __name__=='__main__':
+    # Class instance
+    doodle = ScribbleControlNet(
+        'images/man.jpeg'
+    )
+    print(doodle)
+    
+    # Create the prompt
+    prompt = "monster"
+    
+    # Generate the image
+    image_gen = doodle.generate_scribble(prompt, 
+                                           num_inf_steps=50,
+                                           save_path=f'images/{prompt.strip().replace(" ", "")}')
 
-
+```
 
 
 
