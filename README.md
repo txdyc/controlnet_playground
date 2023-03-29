@@ -2,15 +2,23 @@
 
 The supporting repository for all things controlnet. 
 
-## Getting setup
+## Getting setup
 
-This project was built in `Python 3.9` and requires the requirements file to be installed. I would recommend using a seperate virtual environment for the installation:
+**This project was built in `Python 3.9` and requires the requirements file to be installed.**
+
+1. Firstly, clone this repository, as you will need this for the class files to work in your project. To do this use: 
+
+```
+git clone https://github.com/StatsGary/controlnet_playground.git
+```
+
+2. Next, you will need to install your package dependencies. I would recommend using a seperate virtual environment for the installation:
 
 ```python
 pip install -r requirements.txt
 ```
 
-Once these packages are installed, then you are good to follow on with the tutorials in the next sections.
+3. Once these packages are installed, then you are good to follow on with the tutorials in the next sections.
 
 ## Living room remodeller
 
