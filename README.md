@@ -6,7 +6,7 @@ The supporting repository for all things controlnet.
 
 This project was built in `Python 3.9` and requires the requirements file to be installed. I would recommend using a seperate virtual environment for the installation:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
