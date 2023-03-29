@@ -1,5 +1,5 @@
 # ControlNet Playground
-!\[my badge\](https://badgen.net/badge/hello/world/red?icon=twitter)
+[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
 
 The supporting repository for all things controlnet. 
 
