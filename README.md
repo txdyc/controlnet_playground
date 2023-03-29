@@ -1,6 +1,5 @@
 # ControlNet Playground
-
-[/github/actions/workflow/status/:user/:repo/:workflow+](https://img.shields.io/badge/Test-This%20is%20a%20test-red)
+!\[my badge\](https://badgen.net/badge/hello/world/red?icon=twitter)
 
 The supporting repository for all things controlnet. 
 
