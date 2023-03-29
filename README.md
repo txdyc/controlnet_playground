@@ -1,4 +1,5 @@
 # ControlNet Playground
+
 The supporting repository for all things controlnet. Contains tutorials:
 
 ## Living room remodeller
@@ -34,7 +35,11 @@ if __name__=='__main__':
 
 Doodle face - a model to take a profile picture and convert into your favourite animated images and some historical figures. 
 
-See the supporting post: https://hutsons-hacks.info/creating-doodles-with-hed-detection-and-controlnet:
+See the supporting post: https://hutsons-hacks.info/creating-doodles-with-hed-detection-and-controlnet.
+
+To use this model, refer to the blog post, or import the class from this repository:
+
+
 
 
 
