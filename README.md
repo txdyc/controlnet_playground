@@ -12,7 +12,7 @@ Check out this post for details of what this does: https://hutsons-hacks.info/us
 
 To use the remodeller, copy the class from the article in Python, and then created a `main.py` file, or encapsulate in main block, as below: 
 
-```
+```python
 # Import our custom classes from this repo
 from controlnet.remodeller import ControlNetMLSD, ControlNetSegment
 
