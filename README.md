@@ -1,6 +1,16 @@
 # ControlNet Playground
 
-The supporting repository for all things controlnet. Contains tutorials:
+The supporting repository for all things controlnet. 
+
+## Getting setup
+
+This project was built in `Python 3.9` and requires the requirements file to be installed. I would recommend using a seperate virtual environment for the installation:
+
+```
+pip install -r requirements.txt
+```
+
+Once these packages are installed, then you are good to follow on with the tutorials in the next sections.
 
 ## Living room remodeller
 
