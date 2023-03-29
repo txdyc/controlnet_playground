@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+images/charlie.jpg
+.gitignore
+images/charlie.png
