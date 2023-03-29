@@ -1,5 +1,6 @@
 # ControlNet Playground
 [![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+![Profile View Counter](https://komarev.com/ghpvc/?username=StatsGary)
 
 The supporting repository for all things controlnet. 
 
